@@ -1,2 +1,2 @@
 # LiGo
- Static Website for LiGo
+ Website-Overhaul and Relaunch
