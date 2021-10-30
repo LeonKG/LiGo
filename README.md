@@ -1,2 +1,2 @@
 # LiGo
-Creating the static website with Jekyll
+New static website powered by Jekyll
