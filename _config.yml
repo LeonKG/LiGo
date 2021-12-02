@@ -21,16 +21,19 @@
 title: LiGo - Literaturwissenschaftliche Grundbegriffe online
 email: leon-kristian.gottschling@stud-mail.uni-wuerzburg.de
 description: >- # this means to ignore newlines until "baseurl:"
-  LiGo ist ein Selbstlernkurs zu literaturwissenschaftlichen Grundbegriffen. Lassen Sie sich neue Begriffe erklären und an Beispielen demonstrieren und überprüfen Sie Ihr Wissen mit Hilfe unserer interaktiven Übungen.
+  LiGo ist ein Selbstlernkurs zu literaturwissenschaftlichen Grundbegriffen.
+  Lassen Sie sich neue Begriffe erklären und an Beispielen demonstrieren.
+  Überprüfen Sie Ihr Wissen mit Hilfe der interaktiven Übungen.
 baseurl: "/LiGo" # the subpath of your site, e.g. /blog
 url: "https://leonkg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
 github_username: LeonKG
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-sitemap
+  
+include: ["_pages"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
