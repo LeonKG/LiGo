@@ -36,7 +36,6 @@ plugins:
 include: ["_pages"]
 
 sass_dir: _sass
-  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
