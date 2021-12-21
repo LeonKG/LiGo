@@ -1,0 +1,36 @@
+---
+layout: page
+title: Drag and Drop
+---
+
+<div class="exercise">
+    <p class="task">Bitte ordnen Sie die folgenden Begriffe der jeweiligen Dramenform zu:</p>
+    <table class="dnd_table">
+        <tr>
+            <th class="table_head">Geschlossene Form</th>
+            <th class="table_head">Offene Form</th>
+        </tr>
+        <tr>
+            <td id="drop_area_1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td id="drop_area_2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div class="dnd_items">
+                    <span id="item1" draggable="true" ondragstart="drag(event)">Wenig Personal<br/></span>
+                    <span id="item2" draggable="true" ondragstart="drag(event)">Pyramidenförmige Spannungskurve<br/></span>
+                    <span id="item3" draggable="true" ondragstart="drag(event)">Intentionalität der Handlung<br/></span>
+                    <span id="item4" draggable="true" ondragstart="drag(event)">Hoher Stil<br/></span>
+                    <span id="item5" draggable="true" ondragstart="drag(event)">Häufige Schauplatzwechsel<br/></span>
+                    <span id="item6" draggable="true" ondragstart="drag(event)">Verschiedene Sprachniveaus<br/></span>
+                    <span id="item7" draggable="true" ondragstart="drag(event)">Komplementäre Sequenzen<br/></span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button>Lösung anzeigen</button>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,45 @@
+#previous {
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+#next {
+    margin-top: 2%;
+    margin-left: 43%;
+}
+
+#summit {
+    margin-top: 2%;
+    margin-left: 43%;
+}
+
+#result {
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz-container {
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
+}

@@ -4,8 +4,9 @@
     <body>
         {% include header.html %}
         {% include navbar.html %}
-        {{ content }}
+        <div class="container">{{ content }}</div>
         {% include footer.html %}
-        {% include javascript.html %}
+        <script src="{{'/assets/js/bootstrap/bootstrap.js' | prepend: site.baseurl}}"></script>
+        <script src="{{'/assets/js/uebungen/uebungen.js' | prepend: site.baseurl}}"></script>
     </body>
 </html>

@@ -1,5 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 90%;
+}
+
 .collapse.navbar-collapse {
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .head {
@@ -9,7 +20,7 @@
     color: #003aad;
 }
 
-.text {
+.text, .exercise {
     margin-left: 3%;
 }
 
@@ -30,7 +41,7 @@ table {
 
 .button-m {
     background-color: #003aad;
-    border: 2px solid white;
+    border: 2px solid #003aad;
     color: white;
     padding: 24px 32px;
     text-align: center;
@@ -75,10 +86,15 @@ table {
     text-decoration: none;
 }
 
-.footer .container .nav-item {
+.footer .nav-item {
     text-decoration: none;
     color: #003aad;
     display: inline-block;
     width: 24%;
     text-align: center;
+}
+
+.footer {
+    flex: 0 0 50px;
+    margin-top: auto;
 }
